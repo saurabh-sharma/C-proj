@@ -17,13 +17,10 @@ public:
 
     }
     custom(const string& uname,const string& uid,const string& upin)
- //   custom* createcustomer(string& uname,tring& uid,string& upin)
     {
-        custom* obj=new custom;
-        obj->custname=uname;
-        obj->id=uid;
-        obj->pin=upin;
-        //return obj;
+        custname=uname;
+        id=uid;
+        pin=upin;
     }
 };
 custom c[2];

@@ -1,0 +1,30 @@
+ACCOUNT SUMMARY  06-3121-10212357-Mary Jones
+
+     Total Deposits:        $210  DR
+     Total Withdrawals:     $200  CR
+     Final Deposit:         $10  DR
+
+Date           Description         Deposit        Withdrawal      Balance
+================================================================================
+01/03/2014     OPENING BALANCE     100.00         0.00           100.00         
+01/03/2014     ATM Withdrawal                     50.00          50.00          
+                                                                 50.00          
+02/03/2014     Deposit             90.00                         140.00         
+05/03/2014     Deposit             20.00                         160.00         
+05/03/2014     Withdraw                           100.00         60.00          
+                                                                 60.00          
+05/03/2014     Withdraw                           50.00          10.00          
+                                                                 10.00          
+ACCOUNT SUMMARY  06-3121-10213758-John Smith
+
+     Total Deposits:        $100.00  DR
+     Total Withdrawals:     $50.00  CR
+     Final Deposit:         $50.00  DR
+
+Date           Description         Deposit        Withdrawal      Balance
+================================================================================
+10/03/2014     OPENING BALANCE                    0.00           -0.00          
+11/03/2014     Deposit             20.00                         20.00          
+12/03/2014     Deposit             80.00                         100.00         
+12/03/2014     Withdraw                           50.00          50.00          
+                                                                 50.00          

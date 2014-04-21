@@ -18,20 +18,19 @@ class transaction
         {
 
         }
-        transaction(const string& date, const string& description, const double& amount)//, const double& withdraw,const double& deposit)
+        transaction(const string& date, const string& description, const double& amount)
         {
-            transaction* transc=new transaction;
-            transc->transdate=date;
-            transc->transdesc=description;
-            transc->transamt=amount;
-        //scout<<transc->transamt;
-            //transc->trbalance=amount;
-
-            (description=="Deposit")?transc->deposit=amount:transc->withdraw=-amount;
-
-            //transc->deposit=amount;
-            //transc->withdraw=-amount;
-            //return transc;
+            transdate=date;
+            transdesc=description;
+            transamt=amount;
+            if(description=="Deposit" || description=="OPENING BALANCE")
+            {
+                deposit=amount;
+            }
+            else
+            {
+                withdraw=amount;
+            }
         }
 };
 
